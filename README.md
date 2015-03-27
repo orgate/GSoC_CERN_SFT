@@ -1,8 +1,6 @@
 This project is part of the application proposal for GSoC 2015 to CERN SFT organisation.
 
-Author: Alfred Ajay Aureate .R.
-
-Email ID: alfredajayaureate@gmail.com
+Author: Alfred Ajay Aureate .R.Email ID: alfredajayaureate@gmail.com
 
 Description of the files:
 G4BogaShamRK23.cc - It defines the stepper class and all its member functions such as the stepper() function and DistChord() function
