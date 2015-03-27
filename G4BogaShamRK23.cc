@@ -241,6 +241,3 @@ G4double  G4BogaShamRK23::DistChord() const
   }
   return distChord;
 }
-
-
-# GSoC_CERN_SFT
