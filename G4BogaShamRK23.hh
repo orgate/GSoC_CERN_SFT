@@ -71,4 +71,3 @@ class G4BogaShamRK23 : public G4MagIntegratorStepper
 };
 
 #endif /* G4BogaSham_RK23 */
-# GSoC_CERN_SFT
