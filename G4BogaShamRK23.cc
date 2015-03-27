@@ -33,9 +33,9 @@ G4BogaShamRK23::G4BogaShamRK23(G4EquationOfMotion *EqRhs,
   ak3 = new G4double[numberOfVariables] ; 
   ak4 = new G4double[numberOfVariables] ; 
 //  ak5 = new G4double[numberOfVariables] ; 	// commented by orgate
-  ak5 = 0; 										// added by orgate
+  ak5 = 0; 					// added by orgate
 //  ak6 = new G4double[numberOfVariables] ; 	// commented by orgate
-//  ak7 = 0;									// commented by orgate
+//  ak7 = 0;					// commented by orgate
   yTemp = new G4double[numberOfVariables] ; 
   yIn = new G4double[numberOfVariables] ;
 
@@ -61,7 +61,7 @@ G4BogaShamRK23::~G4BogaShamRK23()
   delete[] ak3;
   delete[] ak4;
   delete[] ak5;
-//  delete[] ak6;								// commented by orgate
+//  delete[] ak6;				// commented by orgate
   // delete[] ak7;
   delete[] yTemp;
   delete[] yIn;
@@ -101,10 +101,10 @@ G4BogaShamRK23::Stepper(const G4double yInput[],
                  b41 = 2.0/9.0 , b42 = 1.0/3.0 , b43 = 4.0/9.0 ,
 
 //                 b51 = -11.0/54.0 , b52 = 2.5 , b53 = -70.0/27.0 , // commented by orgate
-//                 b54 = 35.0/27.0 ,								 // commented by orgate
+//                 b54 = 35.0/27.0 ,				     // commented by orgate
 
-//                 b61 = 1631.0/55296.0 , b62 =   175.0/512.0 ,		 // commented by orgate
-//                 b63 =  575.0/13824.0 , b64 = 44275.0/110592.0 ,	 // commented by orgate
+//                 b61 = 1631.0/55296.0 , b62 =   175.0/512.0 ,	     // commented by orgate
+//                 b63 =  575.0/13824.0 , b64 = 44275.0/110592.0 ,   // commented by orgate
 //                 b65 =  253.0/4096.0 ,
 
                  c1 = 2.0/9.0 , c2 = 1.0/3.0 , c3 = 4.0/9.0 ,
